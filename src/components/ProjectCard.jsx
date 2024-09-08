@@ -8,18 +8,22 @@ import {
 } from "@/components/ui/card"
 import { Badge } from "./ui/badge"
 import { Button } from "./ui/button"
-import { Github, TestTubeDiagonal } from "lucide-react"
+import { TestTubeDiagonal } from "lucide-react"
 import { GitHubLogoIcon } from "@radix-ui/react-icons"
 
-export const ProjectCard = ({ image,
+export const ProjectCard = ({
+    image,
     title,
     description,
     links,
     technologies }) => {
+
+    const img = `/img/${image}`
+
     return (
         <Card className="bg-gray-800 w-full border-none">
-            <CardContent className="p-0">
-                <img className="w-full h-56 rounded-t-xl" src="/placeholderImg.png" alt="" />
+            <CardContent className="p-3 rounded-t-md bg-gray-900">
+                <img className="w-full h-96 object-contain" src={image ? img : "/placeholderImg.png"} alt="project image" />
             </CardContent>
 
             <CardHeader className="flex flex-col">

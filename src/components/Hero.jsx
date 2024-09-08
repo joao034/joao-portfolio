@@ -1,9 +1,6 @@
 import { ArrowUpRight, Download } from "lucide-react"
 import { Button } from "./ui/button"
-import { heroData } from '@/data/heroData'
-
-const CV_URL = 'https://docs.google.com/document/d/1WivZ7yXWg10b0-wAeSTXi48rEDJI2LgH6FW2OQjZxQU/edit?usp=sharing'
-const email = 'joaojacomedev@gmail.com'
+import { heroData, profileData } from '@/data/heroData'
 
 export const Hero = () => {
     return (
@@ -16,14 +13,14 @@ export const Hero = () => {
             </div>
 
             <div className="flex flex-col space-y-1 sm:flex-row sm:space-x-4 sm:space-y-0 w-full max-w-md mx-auto">
-                <a href={CV_URL} target="_blank" className="w-full">
+                <a href={profileData.CV_URL} target="_blank" className="w-full">
                     <Button className="mt-8 bg-teal-600 text-slate-900 hover:bg-teal-900 w-full">
                         <Download className="w-5 h-5 mr-2" />
-                        Resume
+                        Currículum Vitae
                     </Button>
                 </a>
 
-                <a href={`mailto:${email}`} target="_blank" className="w-full">
+                <a href={profileData.linkedIn} target="_blank" className="w-full">
                     <Button className="mt-8 bg-teal-600 text-slate-900 hover:bg-teal-900 w-full">
                         <ArrowUpRight className="w-5 h-5 mr-2" />
                         Contáctame

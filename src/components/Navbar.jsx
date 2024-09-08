@@ -6,7 +6,7 @@ export const Navbar = () => {
   const [isOpen, setIsOpen] = useState( false )
 
   return (
-    <nav className="bg-slate-900 border-b border-slate-950 px-6 py-3">
+    <nav className="bg-slate-950 border-b border-slate-950 px-6 py-3">
       <div className="flex items-center justify-between">
         {/* Logo */}
         <div className="text-xl md:text-2xl font-bold text-teal-500">
