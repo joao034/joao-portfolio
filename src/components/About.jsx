@@ -6,7 +6,7 @@ export const About = () => {
 
   return (
     <div id="aboutMe" className="h-auto flex flex-col items-center py-8 bg-slate-900 px-6">
-      <SectionTittle number="01" title="About" />
+      <SectionTittle number="01" title="Acerca de mí" />
 
       <div className="max-w-screen-md w-full px-4 py-6 flex flex-col items-center">
         <p className="text-gray-400 text-justify">
