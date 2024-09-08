@@ -36,7 +36,7 @@ export const projectsData = [
                         Ideal para fanáticos de los cómics y curiosos del mundo de los superhéroes.`,
         links : {
             github: 'https://github.com/joao034/gestion-HCOdontologicas',
-            demo : 'https://heroes-react-bddzkloit-joao034s-projects.vercel.app'
+            demo : 'https://marvel-dc-heroes.vercel.app/'
         },
         technologies: ['React']
     },
