@@ -12,7 +12,7 @@ export const experienceData = [
     },
     {
         logo: 'logo.png',
-        company: 'Frelance',
+        company: 'Freelance',
         role : 'Fullstack Developer',
         date: 'ago 2023 - feb 2024',
         activities: 
