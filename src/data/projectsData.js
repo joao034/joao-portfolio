@@ -46,7 +46,7 @@ export const projectsData = [
         description : `Aplicación web que permite buscar héroes de DC y Marvel, mostrando información detallada sobre sus habilidades, historia y características. 
                         Ideal para fanáticos de los cómics y curiosos del mundo de los superhéroes.`,
         links : {
-            github: 'https://github.com/joao034/gestion-HCOdontologicas',
+            github: 'https://github.com/joao034/heroes-react',
             demo : 'https://marvel-dc-heroes.vercel.app/'
         },
         technologies: ['React']
