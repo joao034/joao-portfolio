@@ -30,6 +30,17 @@ export const projectsData = [
         technologies: ['.NET', 'Xamarin']
     },
     {
+        image: 'mern-crud.png',
+        title: 'Mern Crud',
+        description : `Aplicación web de gestión de productos desarrollada con la tecnología MERN. Permite a los usuarios realizar un seguimiento 
+                    completo del ciclo de vida de los productos, incluyendo alta, edición, búsqueda y eliminación`,
+        links : {
+            github: 'https://github.com/joao034/mern-crud',
+            demo : 'https://mern-crud-81ca.onrender.com/'
+        },
+        technologies: ['React', 'Node.js', 'Mongo DB']
+    },
+    {
         image: 'hero-app.png',
         title: 'Heroes App',
         description : `Aplicación web que permite buscar héroes de DC y Marvel, mostrando información detallada sobre sus habilidades, historia y características. 
