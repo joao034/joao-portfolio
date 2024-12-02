@@ -1,6 +1,17 @@
 export const experienceData = [
     {
         logo: 'logo.png',
+        company: 'Loopa Tech',
+        role : 'Software Developer',
+        date: 'oct 2024 - nov 2024',
+        activities: ['Desarrollé un prototipo funcional de chatbot conversacional utilizando Python y la técnica de Retrieval Augmented Generation (RAG) para mejorar la experiencia del cliente al consultar datos.', 
+                    'Implementé múltiples agentes de IA para tareas específicas dentro del sistema de chatbot.'
+                     'Integré el chatbot con una base de datos Oracle, permitiendo acceder a una amplia base de conocimientos y brindar respuestas precisas a las consultas de los usuarios.'
+        ],
+        technologies: ['Python', 'Chainlit']
+    },
+    {
+        logo: 'logo.png',
         company: 'Kickersoft SAS',
         role : 'Backend Developer',
         date: 'feb 2024 - jun 2024',
