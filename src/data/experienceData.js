@@ -3,12 +3,11 @@ export const experienceData = [
         logo: 'logo.png',
         company: 'Loopa Tech',
         role : 'Software Developer',
-        date: 'oct 2024 - nov 2024',
-        activities: ['Desarrollé un prototipo funcional de chatbot conversacional utilizando Python y la técnica de Retrieval Augmented Generation (RAG) para mejorar la experiencia del cliente al consultar datos.', 
-                    'Implementé múltiples agentes de IA para tareas específicas dentro del sistema de chatbot.',
-                     'Integré el chatbot con una base de datos Oracle, permitiendo acceder a una amplia base de conocimientos y brindar respuestas precisas a las consultas de los usuarios.'
-        ],
-        technologies: ['Python', 'Chainlit']
+        date: 'oct 2024 - actualmente',
+        activities: ['Desarrollé un chatbot conversacional utilizando Python, integrando modelos de Lenguaje de Gran Escala (LLM) y aplicando la técnica de Retrieval Augmented Generation (RAG) para obtener respuestas fiables y contextualizadas a partir de una base de datos Oracle, mejorando significativamente la experiencia del cliente al consultar datos. ', 
+                    'Desarrollé una aplicación web para la gestión de credenciales de bases de datos Oracle usando Flask.',
+                     'Implementar una plataforma de escucha social de datos provenientes de diversas redes sociales. Se aplicaron algoritmos de machine learning, como K-Means, para el agrupamiento de información con el fin de analizar sentimientos, detectar intención de compra y generar métricas clave que permiten comprender mejor a la audiencia y optimizar las estrategias de comunicación y marketing.'],
+        technologies: ['Python', 'Flask', 'Langchain', 'Chainlit']
     },
     {
         logo: 'logo.png',
