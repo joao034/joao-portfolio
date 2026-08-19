@@ -1,5 +1,15 @@
 export const projectsData = [
     {
+        image: 'chatbot-csv.png',
+        title: 'Chatbot con un csv',
+        description : `Chatbot inteligente que permite a equipos comerciales consultar el stock de vehículos y 
+                       métricas de ventas en tiempo real usando lenguaje natural, procesando datos desde archivos CSV mediante arquitectura RAG`,
+        links : {
+            github: 'https://github.com/joao034/chatbot-with-csv',
+        },
+        technologies: ['RAG', 'Chainlit', 'Open AI API', 'Python']
+    },
+    {
         image: 'odontohub.png',
         title: 'Odontohub',
         description : `Aplicación web para gestionar historias clínicas odontológicas. Permite registrar y visualizar odontogramas, 
