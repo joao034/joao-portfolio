@@ -1,7 +1,7 @@
 export const projectsData = [
     {
         image: 'chatbot-csv.png',
-        title: 'Chatbot con un csv',
+        title: 'Chatbot para equipos comerciales',
         description : `Chatbot inteligente que permite a equipos comerciales consultar el stock de vehículos y 
                        métricas de ventas en tiempo real usando lenguaje natural, procesando datos desde archivos CSV mediante arquitectura RAG`,
         links : {
