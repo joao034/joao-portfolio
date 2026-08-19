@@ -1,5 +1,18 @@
 export const projectsData = [
     {
+        image: 'agente-rag.png',
+        title: 'Agente RAG Cénit',
+        description : `Agente conversacional que permite consultar cursos, precios, becas y 
+                   disponibilidad en lenguaje natural, combinando arquitectura RAG sobre 
+                   una base de conocimiento propia con herramientas para cálculos y 
+                   consultas en tiempo real`,
+        links : {
+            github: 'https://github.com/joao034/rag-agent-cenit',
+            demo : 'https://agente-cenit.onrender.com/'
+        },
+        technologies: ['RAG', 'FastAPI', 'Embeddings', 'Groq', 'Gemini API']
+    },
+    {
         image: 'chatbot-csv.png',
         title: 'Chatbot para equipos comerciales',
         description : `Chatbot inteligente que permite a equipos comerciales consultar el stock de vehículos y 
