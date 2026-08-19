@@ -1,7 +1,7 @@
 export const heroData = {
     name: 'Soy Joao Jácome',
     role: 'Ingeniero de Software',
-    description: 'Me especializo en el desarrollo de aplicaciones web con Laravel, Python y React'
+    description: 'Me especializo en el desarrollo de aplicaciones web con Laravel, Python y React e integración de soluciones con IA.'
 }
 
 export const profileData = {
