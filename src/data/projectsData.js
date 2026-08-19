@@ -6,6 +6,7 @@ export const projectsData = [
                        métricas de ventas en tiempo real usando lenguaje natural, procesando datos desde archivos CSV mediante arquitectura RAG`,
         links : {
             github: 'https://github.com/joao034/chatbot-with-csv',
+            demo : 'https://loopa-rag-csv-prod-631679628936.us-central1.run.app/'
         },
         technologies: ['RAG', 'Chainlit', 'OpenAI API', 'Python']
     },
@@ -59,7 +60,7 @@ export const projectsData = [
             github: 'https://github.com/joao034/heroes-react',
             demo : 'https://marvel-dc-heroes.vercel.app/'
         },
-        technologies: ['React']
+        technologies: ['React', 'Tailwind']
     },
 
 ]
