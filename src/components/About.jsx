@@ -2,7 +2,7 @@ import { SectionTittle } from "."
 
 export const About = () => {
 
-  const about = `Desarrollador de Software con alrededor de 2 años de experiencia. Me especializo en crear soluciones a través de tecnologías como Laravel y React. Apasionado por mejorar la experiencia del usuario mediante la creación de aplicaciones escalables y de alto rendimiento. Busco nuevos desafíos donde pueda aplicar mis conocimientos en desarrollo backend, frontend e integración de soluciones con IA para agregar valor en proyectos dinámicos.`
+  const about = `Desarrollador de Software con 2 años de experiencia. Me especializo en crear soluciones a través de tecnologías como Python, Laravel y React. Apasionado por mejorar la experiencia del usuario mediante la creación de aplicaciones escalables y de alto rendimiento. Busco nuevos desafíos donde pueda aplicar mis conocimientos en desarrollo backend, frontend e integración de soluciones con IA para agregar valor en proyectos dinámicos.`
 
   return (
     <div id="aboutMe" className="h-auto flex flex-col items-center py-8 bg-slate-900 px-6">
