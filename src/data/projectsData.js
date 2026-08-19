@@ -7,7 +7,7 @@ export const projectsData = [
         links : {
             github: 'https://github.com/joao034/chatbot-with-csv',
         },
-        technologies: ['RAG', 'Chainlit', 'Open AI API', 'Python']
+        technologies: ['RAG', 'Chainlit', 'OpenAI API', 'Python']
     },
     {
         image: 'odontohub.png',
